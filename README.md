@@ -10,7 +10,7 @@ Kurssin kolmella ensimmäisellä viikolla on muutama ohjauksessa tai omatoimises
 
 Kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
 
-Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa. Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (keväällä 2020), joten **muista varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!**
+Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa. Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2020), joten **muista varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!**
 
 Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/arvosteluperusteet.md).
 
