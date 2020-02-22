@@ -118,7 +118,7 @@ Palautuksen deadline ti 07.04. klo 23:59
 
 ### viikko 5
 
-Palautuksen deadline ti 14.04. klo 23:59
+Palautuksen deadline ti 21.04. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 1
@@ -130,7 +130,7 @@ Palautuksen deadline ti 14.04. klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline ti 21.04. klo 23:59
+Palautuksen deadline ti 28.04. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2
@@ -141,6 +141,6 @@ Palautuksen deadline ti 21.04. klo 23:59
 
 ### viikko 7
 
-Lopullisen palautuksen deadline su 03.05. klo 23:59
+Lopullisen palautuksen deadline su 10.05. klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/tehtavat/harjoitustyo_viikko7.md)
