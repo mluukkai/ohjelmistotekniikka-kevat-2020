@@ -82,7 +82,7 @@ Luokka BK107
 
 Palautuksen deadline ti 17.03. klo 23:59
 
-- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa B123
+- Tiistaina 10.03. klo 12-14 kurssin aloitustilaisuus Chemicumissa salissa A110
 - Komentorivi- ja Git-harjoittelu (2p)
   - Pajassa tehtävät tai omatoimiset [tehtävät](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/tehtavat/viikko1.md)
 - Tehtävien palautus tapahtuu tekemällä repositorio githubiin ja rekisteröitymällä labtooliin
