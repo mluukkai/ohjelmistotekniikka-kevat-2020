@@ -146,3 +146,10 @@ Palautuksen deadline ti 28.04. klo 23:59
 Lopullisen palautuksen deadline su 10.05. klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/tehtavat/harjoitustyo_viikko7.md)
+
+<iframe>
+   width="600"
+   height="320"
+   frameborder="0"
+   src="https://study.cs.helsinki.fi/pajat/api/tikape/current?name=false&color=pink&text=Tikape%22%3E
+</iframe>
