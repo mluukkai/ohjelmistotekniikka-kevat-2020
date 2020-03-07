@@ -56,7 +56,7 @@ Valitse _File > New project > Java with Maven / Java Application < next_
 
 <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/v2-1.png" width="600">
 
-Anna projektille nimeksi esim. _Maksukortti_ ja poista _package_ kentässä oleva teksti:
+Anna projektille nimeksi esim. _Maksukortti_ ja poista _Package_ kentässä oleva teksti:
 
 ![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-2new.png)
 
@@ -88,9 +88,12 @@ Kopioi alla oleva junit 4.12 dependency _pom.xml_ tiedostossa olevan _dependenci
 ```
 
 Tämän jälkeen _pom.xml_ tiedoston pitäisi näyttää suurinpiirtein tältä:
+
 ![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-pom.png)
 
 ### aloitetaan testien kirjoittaminen
+
+**HUOM** Jos testiluokkasi näyttää erilaiselta korvaa sen koodi alla olevalla **HUOM**
 
 Testiluokka näyttää alussa seuraavalta:
 
