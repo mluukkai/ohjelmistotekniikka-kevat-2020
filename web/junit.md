@@ -50,27 +50,45 @@ Palauta mieleen kortin käyttötapa lukemalla [tehtäväkuvaus](https://www.cs.h
 
 Tee NetBeans-projekti koodiamme varten.
 
-Valitse _File > New project > Java / Java Application < next_
+Valitse _File > New project > Java with Maven / Java Application < next_
 
 **Projekti tulee sijoittaa Labtooliin rekisteröimäsi repositorion hakemiston _laskarit/viikko2_ sisälle:**
 
 <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/v2-1.png" width="600">
 
-Anna projektille nimeksi esim. _Maksukortti_ ja varmista, että kohdassa _Create Main Class_ **ei ole** rastia:
+Anna projektille nimeksi esim. _Maksukortti_ ja poista _package_ kentässä oleva teksti:
 
-![](https://github.com/mluukkai/otm2016/raw/master/img/lh1-1.png)
+![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-2new.png)
 
 luo luokka Maksukortti ja copypastea siihen yllä oleva koodi. Lopputuloksen pitäisi näytää seuraavalta:
 
-![](https://github.com/mluukkai/otm2016/raw/master/img/lh1-2a.png)
+![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-2b.png)
 
 Seuraavaksi aloitetaan testien luominen. Klikataan projektia hiiren oikealla näppäimellä ja valitaan _new > other > Unit Tests > JUnit test > next_. Annetaan testiluokalle nimi, esim. MaksukorttiTest. Huomaa, että testiluokan nimen on pakko päättyä sanaan Test).
 
 Jos toimit oikein testi ilmestyy projektin sisälle kohdan Test Packages alle:
 
-![](https://github.com/mluukkai/otm2016/raw/master/img/lh1-3.png)
+![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-4b.png)
 
 Eli varsinainen koodi kirjotetaan Source Packages:in alle ja testit Test Packages:in alle.
+
+Tämän jälkeen JUnitin versio pitää vaihtaa 5.3.1 takaisin 4.12 pom.xml tiedostossa. Klikataan projektia hiiren oikealla näppäimellä ja valitaan _open POM_
+
+![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-openPom.png)
+
+Kopioi alla oleva junit 4.12 dependency _pom.xml_ tiedostossa olevan _dependencies_ lohkon sisään ja poista org.junit.jupiter dependencyt.
+
+```
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+```
+
+Tämän jälkeen _pom.xml_ tiedoston pitäisi näyttää suurinpiirtein tältä:
+![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-pom.png)
 
 ### aloitetaan testien kirjoittaminen
 
