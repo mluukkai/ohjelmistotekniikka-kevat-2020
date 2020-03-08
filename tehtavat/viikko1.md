@@ -39,7 +39,7 @@ Tulet tarvitsemaan komentorivin käyttötaitoja tällä kurssilla ja muutenkin o
 
 ## osa 2
 
-Saman Tietokone työvälineenä-kurssin materiaalin [toisesta osasta](https://tkt-lapio.github.io/git/) voi olla paljonkin hyötyä tässä  tehtävissä.
+Saman Tietokone työvälineenä-kurssin materiaalin [toisesta osasta](https://tkt-lapio.github.io/git/) voi olla paljonkin hyötyä tässä ja seuraavissa tehtävissä.
 
 Ota ssh-yhteys linuxpalvelimeen _melkki.cs.helsinki.fi_, _melkinpaasi.cs.helsinki.fi_ tai _melkinkari.cs.helsinki.fi_. Linuxilla ja macilla yhteys otetaan komentoriviltä komennolla _ssh kayttajatunnus@palvelimenosoite_. Windowsilla ssh-yhteyden ottaminen onnistuu esimerkiksi [putty:llä](http://www.putty.org).
 
