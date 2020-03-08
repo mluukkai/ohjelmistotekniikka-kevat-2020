@@ -14,9 +14,7 @@ Graafisten käyttöliittymien olemassaolosta huolimatta ohjelmistoalalla on edel
 
 ## osa 1
 
-Opettele käyttämään "riittävästi" komentoriviä (ks. alla oleva lista). Opettelu käy ehkä helpoiten tekemällä osoitteessa [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line) olevan onlinekurssin kaksi ensimmäistä osaa _Navigating the File System_ ja _Viewing and Changing the File System_ (maksullisista pro-episodeista ei kannata välittää).
-
-**HUOM. Codecademy vaatii kirjautumisen Facebook, Google tai GitHub -tunnuksella. Kurssilla käytetään muutenkin GitHubia, niin se tunnus pitäisi kaikilla olla vähintään olla olemassa, jotta pääsee kirjautumaan.**
+Opettele käyttämään "riittävästi" komentoriviä (ks. alla oleva lista). Opettelu käy ehkä helpoiten tekemällä Tietokone työvälineenä-kurssin ensimmäinen osa [_Komentorivi_](https://tkt-lapio.github.io/komentorivi/).
 
 Tämän tehtävän jälkeen sinun tulisi hallita seuraavat asiat:
 
@@ -40,6 +38,8 @@ Tämän tehtävän jälkeen sinun tulisi hallita seuraavat asiat:
 Tulet tarvitsemaan komentorivin käyttötaitoja tällä kurssilla ja muutenkin opinnoissasi.
 
 ## osa 2
+
+Saman Tietokone työvälineenä-kurssin materiaalin [toisesta osasta](https://tkt-lapio.github.io/git/) voi olla paljonkin hyötyä tässä  tehtävissä.
 
 Ota ssh-yhteys linuxpalvelimeen _melkki.cs.helsinki.fi_, _melkinpaasi.cs.helsinki.fi_ tai _melkinkari.cs.helsinki.fi_. Linuxilla ja macilla yhteys otetaan komentoriviltä komennolla _ssh kayttajatunnus@palvelimenosoite_. Windowsilla ssh-yhteyden ottaminen onnistuu esimerkiksi [putty:llä](http://www.putty.org).
 
