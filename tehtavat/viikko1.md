@@ -14,7 +14,7 @@ Graafisten käyttöliittymien olemassaolosta huolimatta ohjelmistoalalla on edel
 
 ## osa 1
 
-Opettele käyttämään "riittävästi" komentoriviä (ks. alla oleva lista). Opettelu käy ehkä helpoiten tekemällä Tietokone työvälineenä-kurssin ensimmäinen osa [_Komentorivi_](https://tkt-lapio.github.io/komentorivi/).
+Opettele käyttämään "riittävästi" komentoriviä (ks. alla oleva lista). Opettelu käy ehkä helpoiten tekemällä Tietokone työvälineenä-kurssin ensimmäisen osan [_Komentorivi_](https://tkt-lapio.github.io/komentorivi/) tehtävät 1-13.
 
 Tämän tehtävän jälkeen sinun tulisi hallita seuraavat asiat:
 
