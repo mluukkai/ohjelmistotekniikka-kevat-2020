@@ -1,6 +1,6 @@
 % Ohjelmistotekniikka
-% Matti Luukkainen, Virva Svaja ja 6 ohjaajaa
-% 28.10.2019
+% Matti Luukkainen, Joakim Joensuu, Riku Honkanen ja 10 ohjaajaa
+% 10.3.2020
 
 # Ohjelmistotekniikka
 
@@ -29,12 +29,12 @@
 . . .
 
 - Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa
-- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (keväällä 2020)
+- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2020)
 - Muista siis varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!
 
 # Luento, deadlinet ja ohjaus
 
-- Kurssilla on vain yksi luento **nyt** eli ma 28.3. klo 14-16 B123
+- Kurssilla on vain yksi luento **nyt** eli tänään
 - Laskareiden ja harjoitustyön välitavoitteiden viikoittaiset deadlinet _tiistaina klo 23:59_
 
 . . .
@@ -45,10 +45,11 @@ alku ma ti ke to pe
 
 ---
 
-12 x x x x  
-14 x x x
+10
+12   x x x x  
+14 x x
 
-- Paja alkaa keskiviikkona 30.10
+- Paja alkaa keskiviikkona 11.3
 
 # Arvosteluperusteet
 
@@ -133,9 +134,9 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
 - Todo-sovelluksen _normaalien käyttäjien_ toiminnallisuuksia ovat esim. seuraavat
   - käyttäjä voi luoda järjestelmään käyttäjätunnuksen
   - käyttäjä voi kirjautua järjestelmään
-  - kirjautumisen jälkeen käyttäjä näkee omat tekemättömät työt eli todot
+  - kirjautumisen jälkeen käyttäjä näkee omat tekemättömät työt eli _todot_
   - kirjaantunut käyttäjä voi luoda uuden tehtävän eli _todon_
-  - kirjaantunut käyttäjä voi merkitä todon tehdyksi, jolloin todo häviää listalta
+  - kirjaantunut käyttäjä voi merkitä _todon_ tehdyksi, jolloin se häviää listalta
 
 . . .
 
@@ -196,7 +197,7 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 
 - _Järjestelmätestauksessa_ testataan ohjelmistoa kokonaisuutena ja verrataan, että se toimii vaatimusdokumentissa sovitun määritelmän mukaisesti
   - järjestelmätestaus suoritetaan ohjelman todellisen käyttöliittymän kautta
-  - järjestelmätestauksen saattaa tapahtua erillisen laadunhallintatiimin toimesta
+ja saattaa tapahtua erillisen laadunhallintatiimin toimesta
 
 # Vesiputousmalli
 
@@ -214,10 +215,14 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 
 # Vesiputousmallin ongelmat
 
-- Mallin toimivuus perustuu siihen oletukseen, että vaatimukset pystytään määrittelemään täydellisesti ennen suunnittelun ja ohjelmoinnin aloittamista
-  - Näin ei useinkaan ole. On lähes mahdotonta, että asiakkaat osaisivat tyhjentävästi ilmaista kaikki ohjelmistolle asettamansa vaatimukset
-  - Vasta käyttäessään valmista ohjelmistoa asiakkaat alkavat ymmärtää, mitä he olisivat ohjelmalta halunneet
-  - Vaikka vaatimukset olisivat kunnossa laatimishetkellä, saattaa toimintaympäristö muuttua kehitysaikana niin ratkaisevasti, että valmistuessaan ohjelmisto on vanhentunut
+- Mallin toimivuus perustuu siihen oletukseen, että vaatimukset pystytään määrittelemään täydellisesti etukäteen
+
+. . .
+
+- Näin ei useinkaan ole
+  - On mahdotonta, että asiakkaat osaisivat tyhjentävästi ilmaista kaikki ohjelmistolle asettamansa vaatimukset
+  - Vasta käyttäessään valmista ohjelmistoa asiakkaat alkavat ymmärtää, mitä he haluavat
+  - Vaikka vaatimukset olisivat kunnossa laatimishetkellä, toimintaympäristö voi muuttua ja valmistuessaan ohjelmisto on vanhentunut
 
 . . .
 
@@ -244,6 +249,8 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/l-2.png){ width=400 }
 
+. . .
+
 Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraatioilla
 
 #
@@ -264,11 +271,14 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
   - Olet todennäköisesti ohjelmoinut Javaa NetBeansilla ja tottunut painamaan "vihreää nappia" tai "mustaa silmää"
   - tutkimme kurssilla hieman miten Javalla tehdyn ohjelmiston _hallinnointi_ tapahtuu NetBeansin "ulkopuolella"
     - koodin kääntäminen, koodin sekä testin suorittaminen ja koodin paketoiminen NetBeansin ulkopuolella suoritettavissa olevaksi jar-paketiksi
-  - Java-projektien hallinnointiin on olemassa muutamia vaihtoehtoja, äytämme monille TiKaPesta tuttua _mavenia_
+  - Java-projektien hallinnointiin on olemassa muutamia vaihtoehtoja, käytämme joillekin TiKaPesta tuttua _mavenia_
 
 # JUnit
 
 - Ohjelmistojen testaus tapahtuu nykyään ainakin yksikkö- ja integraatiotestien osalta automatisoitujen testityökalujen toimesta
+
+. . .
+
 - Java-maailmassa testausta dominoi lähes yksinvaltiaan tavoin JUnit
 - Tulet kurssin ja myöhempienkin opintojesi aikana kirjoittamaan paljon JUnit-testejä
 - Viikon 2 laskareissa harjoitellaan JUnitin perusteita
@@ -276,7 +286,7 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
 # Checkstyle
 
 - Automaattisten testien lisäksi koodille voidaan määritellä erilaisia automaattisesti tarkastettavia tyylillisiä sääntöjä
-- Näiden avulla ylläpidetään koodin luettavuutta ja varmistetaan, että joka puolella koodia noudatetaan samoja tyylillisiä konventioita
+- Näiden avulla ylläpidetään koodin luettavuutta ja varmistetaan, että koodi noudateta samoja tyylillisiä konventioita
 - Käytämme kurssilla tarkoitukseen _Checkstyle_-nimistä työkalua
 
 . . .
@@ -324,7 +334,7 @@ NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
 # Luokkakaaviot
 
-- Kurssilta Tietokantojen perusteet tuttujen _luokkakaavioiden_ käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu
+- Kurssin Tietokantojen perusteet aiemmista versioista tuttujen _luokkakaavioiden_ käyttötarkoitus on luokkien ja niiden välisten suhteiden kuvailu
 - Todo-sovelluksen oleellista tietosisältöä kuvaavat luokat
 
 ```java
@@ -365,39 +375,6 @@ public class Todo {
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/l-9.png){ width=300 }
 
 - Rajapinnan toteutus merkitään samalla tavalla eli valkoisella nuolenpäällä
-
-# Riippuvuus
-
-- UML-kaavioissa olevat "viivat" kuvaavat luokkien olioiden välistä _pysyvää yhteyttä_
-- Joissain tilanteissa on mielekästä merkata kaavioihin myös ei-pysyvää suhdetta kuvaava katkoviiva, eli _riippuvuus_
-
-. . .
-
-- Ohjelmoinnin perusteista tutussa Unicafe-tehtävässä Kassapääte _käyttää_ hetkellisesti _maksukorttia_ lounaiden maksuun
-- Kassapäätteen ja maksukortin välillä ei kuitenkaan ole pidempiaikaista suhdetta
-
-. . .
-
-![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/l-18.png){ width=400 }
-
-# Maksukortti ja kassapääte
-
-```java
-public class Maksukortti {
-    private double saldo;
-    // ...
-}
-
-public class Kassapaate {
-    private int edulliset;
-    private int maukkaat;
-
-    public boolean syoEdullisesti(Maksukortti kortti) {
-        // ...
-        kortti.otaRahaa(EDULLISEN_HINTA);
-    }
-}
-```
 
 # Pakkauskaavio
 
@@ -447,12 +424,12 @@ public class Kassapaate {
 
 . . .
 
-- Sekvenssikaaviot on alunperin kehitetty kuvaamaan verkossa olevien ohjelmien keskinäisen kommunikoinnin etenemistä
-- Sekvenssikaaviot sopivat jossain määrin myös kuvaamaan myös sitä, miten ohjelman oliot kutsuvat toistensa metodeja suorituksen aikana
+- Kehitetty alunperin kuvaamaan verkossa olevien ohjelmien keskinäisen kommunikoinnin etenemistä
+- Sopivat jossain määrin kuvaamaan, miten ohjelman oliot kutsuvat toistensa metodeja suorituksen aikana
 
 # Sekvenssikaavio
 
-Koodia katsomalla näemme, että lounaan maksaminen tapahtuu siten, että ensin kassapääte kysyy kortin saldoa ja jos se on riittävä, vähentää kassapääte lounaan hinnan kortilta ja palauttaa _true_
+Mitä tapahtuu, kun maksukortilla jolla on rahaa 3 euroa, ostataan edullinen lounas?
 
 ```java
 public boolean syoEdullisesti(Maksukortti kortti) {
@@ -470,7 +447,7 @@ public boolean syoEdullisesti(Maksukortti kortti) {
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/l-16.png){ width=300 }
 
-- Sekvenssikaaviossa oliot ovat laatikoita, joista lähtee alaspäin olion "elämänlanka"
+- Oliot ovat laatikoita joista lähtee alas "elämänlanka"
 - Aika etenee ylhäältä alas
 - Metodikutsut ovat nuolia, jotka yhdistävää kutsuvan ja kutsutun olion elämänlangat
 - Paluuarvo merkitään katkoviivalla
@@ -501,7 +478,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 
 - Edetään viikottaisten tavoitteiden mukaan
 - Työ on saatava valmiiksi kurssin aikana ja sitä on toteutettava tasaisesti, muuten kurssi katsotaan keskeytetyksi
-- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli keväällä 2020), vaan työ on aloitettava uudella aiheella alusta
+- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli syksyllä 2020), vaan työ on aloitettava uudella aiheella alusta
 
 . . .
 
@@ -676,7 +653,9 @@ Ohjelman pisteet jakautuvat seuraavasti
 
 . . .
 
-- Harjoitustyösi pitää pystyä joka viikko suorittamaan, kääntämään ja testaamaan komentoriviltä käsin laitoksen linux-koneilla (tai uusimmat päivitykset sisältävällä cubbli-linuxilla), muussa tapauksessa työtä ei tarkasteta ja menetät viikon/loppupalautuksen pisteet.
+- Harjoitustyösi pitää pystyä joka viikko suorittamaan, kääntämään ja testaamaan komentoriviltä käsin laitoksen linux-koneilla (tai uusimmat päivitykset sisältävällä cubbli-linuxilla)
+  - muussa tapauksessa työtä ei tarkasteta ja menetät viikon/loppupalautuksen pisteet
+- Varminta käyttää Javan versiota 11
 
 . . .
 
@@ -687,68 +666,3 @@ Ohjelman pisteet jakautuvat seuraavasti
 
 - Kurssin tavoitteena on, että tuotoksesi voisi ottaa kuka tahansa kaverisi tai muu opiskelija ylläpidettäväksi ja laajennettavaksi
 - Lopullisessa palautuksessa tavoitteena on _Clean code_ eli selkeä, ylläpidettävä ja toimivaksi testattu koodi
-
-. . .
-
-- **Nimentä**
-  - Käytä mahdollisimman kuvaavia nimiä kaikkialla
-  - Luokkien nimet aina isolla alkukirjaimella
-  - Metodit, attribuutit, parametrit ja muuttujat aina _camelCase_
-  - Muuttujat, joilla on iso käyttöalue, tulee olla erittäin selkeästi (vaikka pitkästi) nimettyjä.
-  - Lyhyen metodin sisäisille muuttujille riittää yleensä lyhyt nimi
-  - Jos metodia käytetään vähän, tulee nimen olla mahdollisimman kuvaava
-  - Jos metodia käytetään useassa kohdassa koodia, voi sen nimi olla lyhyt ja ytimekäs
-
-# Koodin laatuvaatimukset
-
-- **Ei liian pitkiä metodeja**
-  - Sovelluslogiikan metodin pituuden tulee ilman erittäin hyvää syytä olla korkeintaan 10 riviä
-  - Pitkät metodit tulee jakaa useampiin metodeihin
-  - Yksi metodi - yksi pieni tehtävä (Single Responsibility)
-    - Helpottaa myös testaamista
-
-. . .
-
-- **Ei copy-pastea**
-  - Toistuvan koodin saa lähes aina hävitettyä
-  - Tapauksesta riippuen luo metodi tai yliluokka, joka sisältää toistuvan koodin
-
-# Koodin laatuvaatimukset
-
-- **Luokkien Single Responsibility**
-  - Luokkien tulisi hoitaa vain yhtä asiaa
-  - Erityisen tärkeää on erottaa käyttöliittymä ja sovelluslogiikka
-    - Kaikki tulostaminen tulisi tapahtua käyttöliittymässä
-    - Sovelluslogiikkaan liittyviä operaatioita ei tehdä käyttöliittymässä
-  - Toisaalta tiettyä asiaa ei pidä hoitaa useissa eri luokissa
-  - Esimerkiksi tiedoston lukemista tai -kirjoittamista EI tulisi löytyä useasta luokasta
-    - Tee oma luokka tiedostojen käsittelylle
-
-# Koodin laatuvaatimukset
-
-- **Pakkaukset**
-  - << Default package >> EI saa olla käytössä
-  - Luokat tulee jakaa loogisesti pakkauksiin
-    - Pakkausten nimet aina pienellä (_lowercase_)
-  - Kaikkien pakkausten tulee olla yhden juuripakkauksen alla, esim. fi.omanimi
-    - Sovelluslogiikkapakkaus olisi näin tehtynä siis fi.omanimi.logics, käyttöliittymä fi.omanimi.gui
-  - Yhdessä pakkauksessa yksi kokonaisuus
-    - Esim. yhdessä pakkauksessa käyttäjätileihin liittyvät luokat
-    - Toisessa muu logiikka
-    - Kolmannessa käyttöliittymän luokat
-  - Myös testipakkausten nimentä tulee olla oikea
-
-# Yleiset laatuvaatimukset
-
-- Lopulliseen arvosteluun palautetun ohjelman tulee toimia oikein
-  - Ohjelma ei saa missään tilanteessa kaatua
-  - Ohjelma ei saa printata Exceptioneita (Stack tracea) komentoriville, vaikka virhe ei kaataisi ohjelmaa
-- Varaudu siihen, että käyttäjä yrittää antaa vääriä syötearvoja
-  - Esim. ohjelmasi haluaa numeron, tyhmä käyttäjä syöttää tekstiä
-- Pelien sääntöjen tulisi toimia oikein
-  - Esim. muistipelissä ei saa kääntää jo käännettyä palaa
-  - Ristinollassa ei saa asettaa merkkiä ruutuun, jossa on jo merkki
-- Jos ohjelmassasi tapahtuu vakava virhe, ohjelmasi voi esimerkiksi
-  - näyttää käyttäjäystävällisen virheilmoituksen
-  - ja sulkea ohjelman
-- Ohjelmaan jäävät tunnetut ongelmat dokumentoidaan testausdokumenttiin
