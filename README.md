@@ -72,11 +72,11 @@ Luokka BK107
 
 ### tulossa
 
-| Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
-| :--------: | :-------: | :-----: | :---------: | :-----: | :-------: |
-|  10 - 12   |           |         |             |         |           |
-|  12 - 14   |           |         |             |         |           |
-|  14 - 16   |           |         |             |         |           |
+| Kellonaika | Maanantai | Tiistai  | Keskiviikko | Torstai  | Perjantai |
+| :--------: | :-------: | :------: | :---------: | :------: | :-------: |
+|  10 - 12   |           |          |             |          |           |
+|  12 - 14   |           | Ohjausta |  Ohjausta   | Ohjausta | Ohjausta  |
+|  14 - 16   | Ohjausta  | Ohjausta |             |          |           |
 
 ## Aikataulu
 
