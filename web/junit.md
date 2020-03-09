@@ -46,11 +46,11 @@ public class Maksukortti {
 
 Palauta mieleen kortin käyttötapa lukemalla [tehtäväkuvaus](https://www.cs.helsinki.fi/group/java/s16-materiaali/viikko4/#90maksukortti)
 
-### alkutoimet
+### Alkutoimet
 
 Tee NetBeans-projekti koodiamme varten.
 
-Valitse _File > New project > Java with Maven / Java Application < next_
+Valitse _File > New project > Java with Maven / Java Application > next_
 
 **Projekti tulee sijoittaa Labtooliin rekisteröimäsi repositorion hakemiston _laskarit/viikko2_ sisälle:**
 
@@ -64,7 +64,7 @@ luo luokka Maksukortti ja copypastea siihen yllä oleva koodi. Lopputuloksen pit
 
 ![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-2b.png)
 
-Seuraavaksi aloitetaan testien luominen. Klikataan projektia hiiren oikealla näppäimellä ja valitaan _new > other > Unit Tests > JUnit test > next_. Annetaan testiluokalle nimi, esim. MaksukorttiTest. Huomaa, että testiluokan nimen on pakko päättyä sanaan Test).
+Seuraavaksi aloitetaan testien luominen. Klikataan projektia hiiren oikealla näppäimellä ja valitaan _new > other > Unit Tests > JUnit test > next_. Annetaan testiluokalle nimi, esim. MaksukorttiTest. Huomaa, että testiluokan nimen on pakko päättyä sanaan Test.
 
 Jos toimit oikein testi ilmestyy projektin sisälle kohdan Test Packages alle:
 
@@ -72,7 +72,9 @@ Jos toimit oikein testi ilmestyy projektin sisälle kohdan Test Packages alle:
 
 Eli varsinainen koodi kirjotetaan Source Packages:in alle ja testit Test Packages:in alle.
 
-Tämän jälkeen JUnitin versio pitää vaihtaa 5.3.1 takaisin 4.12 pom.xml tiedostossa. Klikataan projektia hiiren oikealla näppäimellä ja valitaan _open POM_
+Ohjeissa käytetään JUnitin versiota 4.12, mutta TMCBeans käyttää oletuksena maven projekteissa JUnitin versiota 5.3.1, joten se pitää itse vaihtaa pom.xml tiedostossa.
+
+Klikataan projektia hiiren oikealla näppäimellä ja valitaan _Open POM_
 
 ![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-openPom.png)
 
@@ -91,7 +93,7 @@ Tämän jälkeen _pom.xml_ tiedoston pitäisi näyttää suurinpiirtein tältä:
 
 ![](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/raw/master/web/images/v2-pom.png)
 
-### aloitetaan testien kirjoittaminen
+### Aloitetaan testien kirjoittaminen
 
 **HUOM** Jos testiluokkasi näyttää erilaiselta korvaa sen koodi alla olevalla **HUOM**
 
