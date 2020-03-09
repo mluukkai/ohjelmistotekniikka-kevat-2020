@@ -40,16 +40,8 @@
 . . .
 
 - Paja salissa BK107
-
-alku ma ti ke to pe
-
----
-
-10
-12   x x x x  
-14 x x
-
-- Paja alkaa keskiviikkona 11.3
+- Ajat selviävät kurssisivulta
+- Ajat ovat pääosin viikoittain samat, kannattaa kuitenkin aina tarkistaa tilanne kurssisivulta
 
 # Arvosteluperusteet
 
