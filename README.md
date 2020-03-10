@@ -68,12 +68,16 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa tämä kalenteri ennen pajaan menoa.
 
-Nykyisen/tulevan viikon pajaohjausajat harmaalla. 
+Nykyisen/tulevan viikon pajaohjausajat alla.
 Luokka BK107
 
 <img src="https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/paja.png?raw=true" width="900">
 
-[Automaattisesti päivittyvä aikataulu](https://study.cs.helsinki.fi/pajat/api/ohte/current?color=pink&text=Ohte-ohjausta)
+Automaattisesti päivittyvät kalenterit
+
+[Nykyinen/tuleva viikko](https://study.cs.helsinki.fi/pajat/api/ohte/current?color=pink&text=Ohte-ohjausta)
+
+[Sitä seuraava](https://study.cs.helsinki.fi/pajat/api/ohte/next?color=pink&text=Ohte-ohjausta)
 
 ## Aikataulu
 

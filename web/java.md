@@ -468,7 +468,7 @@ Arvosteluperusteet [kannustavat](https://github.com/mluukkai/ohjelmistotekniikka
 
 ### DAO-suunnittelumalli
 
-Riippumatta mihin tiedon tallennat, kannattaa tiedon tallentaminen eristää sovelluksen muista osista esim. tietokantojen perusteista tutun [DAO](https://materiaalit.github.io/tikape-k18/part3/)-suunnittelumallin avulla.
+Riippumatta mihin tiedon tallennat, kannattaa tiedon tallentaminen eristää sovelluksen muista osista esim. tietokantojen perusteista tutun [DAO](https://tietokantojen-perusteet-19.mooc.fi/osa-6/2-data-access-object)-suunnittelumallin avulla.
 
 [Esimerkkisovelluksella](https://github.com/mluukkai/OtmTodoApp) on Tikapenkin mallia noudattelevat DAO:t sekä sovelluksen käsittelemille käyttäjille että käyttäjien todoille eli työtehtäville.
 
