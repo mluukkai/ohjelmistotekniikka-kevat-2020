@@ -201,7 +201,7 @@ UML tarjoaa lukuisia erilaisia kaaviotyyppejä, hyödynnämme kurssilla kuitenki
 
 ### Luokkakaaviot
 
-Kurssilla [Tietokantojen perusteet](https://materiaalit.github.io/tikape-k18/) olet jo tutustunut luokkakaavioiden käyttöön.
+Kurssilla [Tietokantojen perusteet](https://tietokantojen-perusteet-19.mooc.fi/) olet jo tutustunut luokkakaavioiden käyttöön.
 
 Luokkakaavioiden käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu. Todo-sovelluksen oleellista tietosisältöä edustavat käyttäjää vastaava luokka _User_:
 
@@ -400,7 +400,7 @@ Riippuvuuksien merkitseminen luokkakaavioihin ei ole välttämättä kovin oleel
 
 #### Rajapinta ja perintä
 
-TodoService siis tuntee _TodoDao_-olion (jos unohdit mikä on DAO, kertaa Tietokantojen perusteiden viikon 3 luku [2.4](https://materiaalit.github.io/tikape-k18/part3/)), jonka avulla se pääsee _todo_-olioihin. _TodoDao_ ei ole itseasiassa luokka vaan _rajapinta_:
+TodoService siis tuntee _TodoDao_-olion (jos unohdit mikä on DAO, kertaa Tietokantojen perusteiden [DAO-suunnittelumalli](https://tietokantojen-perusteet-19.mooc.fi/osa-6/2-data-access-object)), jonka avulla se pääsee _todo_-olioihin. _TodoDao_ ei ole itseasiassa luokka vaan _rajapinta_:
 
 ```java
 public interface TodoDao {
@@ -617,7 +617,7 @@ Kerrosarkkitehtuurissa ylimpänä on _käyttöliittymästä_ vastaava kerros. K�
 
 Sovelluslogiikka, eli esim. käyttäjän kirjautumisesta huolehtiminen, todojen luominen ja niiden tehdyksi merkkaaminen on käyttöliittymän alapuolella olevan _sovelluslogiikkakerroksen_ vastuulla. Sovelluslogiikkakerroksen koodi on pakkauksessa nimeltään _todoapp.doman_.
 
-Sovelluslogiikan alapuolella on _datan tallennuksesta vastaava kerros_, jonka käytännössä muodostavat DAO-suunnittelumallin (ks. Tietokantojen perusteiden viikon 3 luku [2.4](https://materiaalit.github.io/tikape-k18/part3/)) inspiroimana muodostetut rajapintojen _TodoDao_ ja _UserDao_ toteuttamat luokat.
+Sovelluslogiikan alapuolella on _datan tallennuksesta vastaava kerros_, jonka käytännössä muodostavat DAO-suunnittelumallin (ks. Tietokantojen perusteiden [Dao-suunnittelumalli](https://tietokantojen-perusteet-19.mooc.fi/osa-6/2-data-access-object)) inspiroimana muodostetut rajapintojen _TodoDao_ ja _UserDao_ toteuttamat luokat.
 
 [Kerrosarkkitehtuuri](https://en.wikipedia.org/wiki/Multitier_architecture) (engl. layered architecture tai multitier architecture) on ehkä eniten käytetty ohjelmistojen [arkkitehtuurimalli](https://en.wikipedia.org/wiki/Software_Architecture_styles_and_patterns), eli yleisesti käytetty tapa ohjelmiston rakenteen strukturointiin. Käytännössä lähes jokainen ohjelmisto noudattaa ainakin jossain määrin kerroksellisuuden periaatetta. On olemassa lukuisia arkkitehtuurimalleja, joihin tutustutaan tarkemmin kursseilla Ohjelmistotuotanto ja Ohjelmistoarkkitehtuurit.
 
