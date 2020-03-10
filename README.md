@@ -66,15 +66,18 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Pajaohjauksen aikatauluja
 
-Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien välillä on siis 15 minuutin tauko.
+Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa tämä kalenteri ennen pajaan menoa.
 
+Nykyisen/tulevan viikon pajaohjausajat alla.
 Luokka BK107
 
-| Kellonaika | Maanantai | Tiistai  | Keskiviikko | Torstai  | Perjantai |
-| :--------: | :-------: | :------: | :---------: | :------: | :-------: |
-|  10 - 12   |           |          |             |          |           |
-|  12 - 14   |           | Ohjausta |  Ohjausta   | Ohjausta | Ohjausta  |
-|  14 - 16   | Ohjausta  | Ohjausta |             |          |           |
+<img src="https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/paja.png?raw=true" width="900">
+
+Automaattisesti päivittyvät kalenterit
+
+[Nykyinen/tuleva viikko](https://study.cs.helsinki.fi/pajat/api/ohte/current?color=pink&text=Ohte-ohjausta)
+
+[Sitä seuraava](https://study.cs.helsinki.fi/pajat/api/ohte/next?color=pink&text=Ohte-ohjausta)
 
 ## Aikataulu
 
