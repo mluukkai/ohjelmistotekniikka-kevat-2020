@@ -70,8 +70,6 @@ Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien 
 
 Luokka BK107
 
-### tulossa
-
 | Kellonaika | Maanantai | Tiistai  | Keskiviikko | Torstai  | Perjantai |
 | :--------: | :-------: | :------: | :---------: | :------: | :-------: |
 |  10 - 12   |           |          |             |          |           |
