@@ -68,7 +68,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa tämä kalenteri ennen pajaan menoa.
 
-Nykyisen/tulevan viikon pajaohjausajat harmaalla. 
+Nykyisen/tulevan viikon pajaohjausajat alla. 
 Luokka BK107
 
 <img src="https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/paja.png?raw=true" width="900">
