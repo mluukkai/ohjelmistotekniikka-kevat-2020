@@ -66,6 +66,8 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Pajaohjauksen aikatauluja
 
+#### Pajaohjaus on päätetty keskeyttää toistaiseksi
+
 Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa tämä kalenteri ennen pajaan menoa.
 
 Nykyisen/tulevan viikon pajaohjausajat alla.
