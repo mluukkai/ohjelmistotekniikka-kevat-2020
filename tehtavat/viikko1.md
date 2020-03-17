@@ -204,10 +204,10 @@ Suorita jälleen komento <code>git status</code>
 <pre>
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
-nothing to commit, working directory clean
+nothing to commit, working tree clean
 </pre>
 
-Git ilmoittaa, että _working directory clean_, eli hakemistosi on samassa tilassa kuin git-repositorio.
+Git ilmoittaa, että _working tree clean_, eli hakemistosi on samassa tilassa kuin git-repositorio.
 
 ### working directory, index/staging, repository
 
