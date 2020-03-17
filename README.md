@@ -68,10 +68,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 #### Pajaohjaus on päätetty keskeyttää toistaiseksi
 
-Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa tämä kalenteri ennen pajaan menoa.
-
-Nykyisen/tulevan viikon pajaohjausajat alla.
-Luokka BK107
+Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa alla olevat kalenterit ennen pajaan menoa. Pajaohjaus tapahtuu luokassa BK107.
 
 [Nykyinen/tuleva viikko](https://study.cs.helsinki.fi/pajat/api/ohte/current?color=pink&text=Ohte-ohjausta)
 
