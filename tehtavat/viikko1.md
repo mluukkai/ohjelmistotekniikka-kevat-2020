@@ -389,7 +389,7 @@ Kuten oletettua, git kertoo että olemme tehneet muutoksia, jotka eivät ole "st
 mluukkai@melkinpaasi:~/ot_viikko1$ git checkout -- eka.txt
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
-nothing to commit, working directory clean
+nothing to commit, working trean clean
 ```
 
 - Varmista vielä, että tiedoston sisältö on sama kuin ennen muutoksia
