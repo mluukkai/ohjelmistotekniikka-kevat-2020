@@ -223,13 +223,12 @@ Kun teet muutoksia hakemistosi alla oleviin tiedostoihin (tai hakemistoihin), ko
 
 Suorita jälleen <code>git status</code>
 
-<pre>
+```
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   tiedosto.txt
 
 Untracked files:
@@ -238,7 +237,7 @@ Untracked files:
 	toinen.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-</pre>
+```
 
 Git ilmoittaa nyt, että uusi tiedosto on _untracked_ ja että aiemmassa tiedostossa on muutoksia, jotka eivät ole _staged for commit_.
 
@@ -246,15 +245,14 @@ Toimitaan ohjeen mukaan eli lisätään muutokset ja uusi tiedosto commitoitavie
 
 Tarkistetaan taas tilanne komennolla <code>git status</code>
 
-<pre>
+```
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
+  (use "git restore --staged <file>..." to unstage)
 	modified:   tiedosto.txt
 	new file:   toinen.txt
-</pre>
+```
 
 Sekä muutos että uusi tiedosto ovat nyt valmiina committoitavaksi.
 
@@ -368,13 +366,12 @@ Joskus tiedostoihin tulee tehtyä muutoksia, jotka on tarpeen perua
 - tee nyt joku muutos tiedostoon _eka.txt_, **älä** lisää tiedostoa committoitavaksi
 - suorita komento _git status_
 
-```bash
+```
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   eka.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -382,11 +379,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Kuten oletettua, git kertoo että olemme tehneet muutoksia, jotka eivät ole "staged for commit", eli lisättyjä commitoitavaksi.
 
-- Päätetäänkin perua muutokset. Se onnistuu komennolla <code>git checkout -- eka.txt</code>
+- Päätetäänkin perua muutokset. Se onnistuu komennolla <code>git restore eka.txt</code>
 - Kun suoritat uudelleen komennon _git status_ huomaat, että working directory ei enää sisällä muutoksia:
 
-```bash
-mluukkai@melkinpaasi:~/ot_viikko1$ git checkout -- eka.txt
+```
+mluukkai@melkinpaasi:~/ot_viikko1$ git restore eka.txt
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 nothing to commit, working trean clean
@@ -399,11 +396,11 @@ Myös stagingiin viety eli valmiina committoitavaksi oleva muutos voidaan perua.
 - Tee muutoksia tiedostoon _kolmas.txt_ ja lisää se committoitavaksi. **Älä** kuitenkaan committoi.
 - git statuksen pitäisi näyttää seuraavalta
 
-```bash
+```
 mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
+  (use "git restore --staged <file>..." to unstage)
 
 	modified:   kolmas.txt
 
@@ -412,7 +409,7 @@ mluukkai@melkinpaasi:~/ot_viikko1$
 
 Ohje muutoksen perumiseen löytyy git statuksen tulosteesta.
 
-- suorita muutokset peruva komento <code>git reset HEAD kolmas.txt</code>
+- suorita muutokset peruva komento <code>git restore --staged kolmas.txt</code>
 - katsotaan jälleen _git status_
 
 ```pre
@@ -420,7 +417,7 @@ mluukkai@melkinpaasi:~/ot_viikko1$ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+  (use "git restore <file>..." to discard changes in working directory)
 
 	modified:   kolmas.txt
 
@@ -429,10 +426,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Tiedosto ei siis enää ole _staged_-tilassa, muutokset ovat kuitenkin _working directoryssä_, eli jos katsot tiedoston sisällön, muutokset ovat vielä olemassa
 
-- pääset perumaan muutokset kokonaan antamalla komennon <code>git checkout -- kolmas.txt</code>
+- pääset perumaan muutokset kokonaan antamalla komennon <code>git restore kolmas.txt</code>
 - varmista, että tiedosto on palannut muutoksia edeltävään tilaan
 
-Seuraavassa tiedoston tilaa kuvaava kaavio täydennettynä, eli jos tiedosto on lisätty committoitavaksi, eli se on _staged_, voidaan muutos perua komennolla _git reset HEAD_. Tällöin muutokset kuitenkin vielä jäävät tiedostoon, eli ovat _working directoryssä_. Tiedosto saadaan palautettua repositoriossa olevaan edellisen commitin tilaan komennolla _git checkout_.
+Seuraavassa tiedoston tilaa kuvaava kaavio täydennettynä, eli jos tiedosto on lisätty committoitavaksi, eli se on _staged_, voidaan muutos perua komennolla _git restore --staged_. Tällöin muutokset kuitenkin vielä jäävät tiedostoon, eli ovat _working directoryssä_. Tiedosto saadaan palautettua repositoriossa olevaan edellisen commitin tilaan komennolla _git restore_.
 
 ![](https://github.com/mluukkai/otm2016/raw/master/img/lh3-3.png)
 
