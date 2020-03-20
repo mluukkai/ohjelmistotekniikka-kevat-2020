@@ -20,9 +20,15 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Ajankohtaista
 
+- Pajaohjaus on keskeytetty toistaiseksi
+- Jos tarvitset kurssiin liittyvää ohjausta:
+  - Jos kyseessä ei ole kiireinen ongelma niin omaan ohjaajaan saa yhteyden labtoolin viikkopalautuksen kommenttiosiossa 
+  - Jos haluat apua nopeammin, on Telegram on paras paikka, erityisesti arkisin klo 9-16
+  - Jos et halua kysyä kysymystä suoraan kurssin kanavalla, voit ottaa yhteyttä suoraan "telegram-vastaavaan" Kalle Ilvekseen. Pääasiassa kysymykset kannattaa kuitenkin esittää kanavalla, sillä samat ongelmat koskevat usein useampaakin opiskelijaa
 - Kurssin ainoa luento ti 10.3. klo 12-14 Chemicum, sali A110
 - Sovellus tehdään käyttämällä Javan versiota 11. [Asennusohjeet](https://www.mooc.fi/fi/installation/netbeans)
-- [Telegram](https://t.me/tktlotm) on whatsappin/messengerin tyylinen keskustelufoorumisovellus jota on mahdollista käyttää selaimella, mobiililaitteilla ja Windows/Linux/OSX-clienteillä
+- Kurssin Telegram-kanava: [https://t.me/tktlotm](https://t.me/tktlotm) 
+  - [Telegram](https://telegram.org/) on whatsappin/messengerin tyylinen keskustelufoorumisovellus jota on mahdollista käyttää selaimella, mobiililaitteilla ja Windows/Linux/OSX-clienteillä
   - Telegram-kanava on sillattu IRC-kanavaan #otm
   - **Huom:** kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta
 
@@ -67,12 +73,6 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 ## Pajaohjauksen aikatauluja
 
 #### Pajaohjaus on päätetty keskeyttää toistaiseksi
-
-Pajaohjausajat voivat muuttua viikon välein, joten kannattaa tarkistaa alla olevat kalenterit ennen pajaan menoa. Pajaohjaus tapahtuu luokassa BK107.
-
-[Nykyinen/tuleva viikko](https://study.cs.helsinki.fi/pajat/api/ohte/current?color=pink&text=Ohte-ohjausta)
-
-[Sitä seuraava](https://study.cs.helsinki.fi/pajat/api/ohte/next?color=pink&text=Ohte-ohjausta)
 
 ## Aikataulu
 
