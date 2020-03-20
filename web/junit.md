@@ -201,7 +201,7 @@ public void konstruktoriAsettaaSaldonOikein() {
 }
 ```
 
-Varmistetaan että saamme alalaitaan punaisen palkin.
+Varmistetaan, että Output -välilehdessä lukee `Failures: 1` virheen merkiksi.
 
 **Korjataan testi taas ennalleen.**
 
