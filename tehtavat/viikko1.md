@@ -431,7 +431,7 @@ Tiedosto ei siis enää ole _staged_-tilassa, muutokset ovat kuitenkin _working 
 
 Seuraavassa tiedoston tilaa kuvaava kaavio täydennettynä, eli jos tiedosto on lisätty committoitavaksi, eli se on _staged_, voidaan muutos perua komennolla _git restore --staged_. Tällöin muutokset kuitenkin vielä jäävät tiedostoon, eli ovat _working directoryssä_. Tiedosto saadaan palautettua repositoriossa olevaan edellisen commitin tilaan komennolla _git restore_.
 
-![](https://github.com/mluukkai/otm2016/raw/master/img/lh3-3.png)
+![](./web/images/v1-RestoreGit.png)
 
 ## Harjoittelua
 
