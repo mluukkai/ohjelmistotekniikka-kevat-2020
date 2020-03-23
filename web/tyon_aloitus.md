@@ -228,7 +228,7 @@ mluukkai@melkki:~/otm-harjoitustyo$
 Harjoitustyössä tehtävä ohjelmisto tehdään maven-projektina. Projektin luominen onnistuu NetBeansin avulla seuraavasti:
 
 - valitse _new project_ ja tee seuraavat valinnat:
-  <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/a-3.png" width="550">
+  <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat-2020/master/web/images/a-3.png">
 
 - Vaikka käyttäisit JavaFX:ää, kannattaa projektia varten silti luoda "normaali" maven-projekti ellet päätä käyttää [FXML:ää](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/java.md#fxml)
 
