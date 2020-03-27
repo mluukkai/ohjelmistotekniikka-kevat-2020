@@ -24,7 +24,7 @@ Lisää tiedostoon _pom.xml_ seuraavat
         <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.0</version>
+            <version>0.8.3</version>
             <executions>
                 <execution>
                     <id>default-prepare-agent</id>
