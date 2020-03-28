@@ -20,7 +20,7 @@ Mikään ei tietenkään estä sitä, että aloitat jo ohjelmoinnin tai vaikkapa
 
 Palautus tapahtuu lisäämällä oman aiheen _alustava määrittelydokumentti_ ensimmäisen viikon [laskareiden](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/tehtavat/viikko1.md#labtool) päätteeksi [labtooliin](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2019.S.K.1) rekisteröimääsi palautusrepositorioon.
 
-Määrittelydokumentti tehdään samaan tapaan kuin [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp) eli [markdown](https://guides.github.com/features/mastering-markdown/)-muodossa, sijoitetaan repositorion hakemistoon _dokumentointi_ ja siihen tulee olla linkki repositorion README.md:stä.
+Määrittelydokumentti tehdään samaan tapaan kuin [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp) eli [markdown](https://guides.github.com/features/mastering-markdown/)-muodossa, sijoitetaan repositorion hakemistoon _dokumentaatio_ ja siihen tulee olla linkki repositorion README.md:stä.
 
 Määrittelydokumenttiin kannattaa ottaa mallia [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp), eli sen tulee sisältää:
 
