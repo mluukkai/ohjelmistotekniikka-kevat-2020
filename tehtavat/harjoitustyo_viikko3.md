@@ -8,11 +8,13 @@ Muista pushata harjoitustyöhön liittyvät asiat GitHubiin ennen viikkodeadline
 
 **HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Voit testata tätä esim. [virtuaalityöasemassa](https://vdi.helsinki.fi).
 
+**HUOM! Ainoa sallittu kieli on Java 11.** Ohjeet sen asentamiseen ovat [täällä](https://www.mooc.fi/fi/installation/netbeans).
+
 Palautuksesta on tarjolla 2 kurssipistettä.
 
 Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 
-- Repostitorion juuresta löytyy Maven-projekti
+- Repositorion juuresta löytyy Maven-projekti
   - [ohje](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/tyon_aloitus.md#harjoitusty%C3%B6n-aloitus) projektin luomiseen ja sen sijoittamiseen palautusrepositorioon
 - Projektin koodin pystyy suorittamaan NetBeansin vihreällä napilla _tai/ja_ komennolla <code>mvn compile exec:java -Dexec.mainClass=pakkaus.Paaohjelma</code>
   - komennon parametrina on metodin _main_ sisältävän luokan täydellinen, eli myös pakkauksen sisältävä, nimi
