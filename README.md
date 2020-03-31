@@ -24,6 +24,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 - Jos tarvitset kurssiin liittyvää ohjausta:
   - Jos kyseessä ei ole kiireinen ongelma niin omaan ohjaajaan saa yhteyden labtoolin viikkopalautuksen kommenttiosiossa 
   - Jos haluat apua nopeammin, on Telegram on paras paikka, erityisesti arkisin klo 9-16
+  - **Jos kysymys koskee koodia tai siinä esiintyviä virhetilanteita, kannattaa laittaa kysymyksen yhteyteen linkki omaan repositorioosi.** Ilman koodin näkemistä ongelman selvittäminen on hankalaa tai jopa mahdotonta.
   - Jos et halua kysyä kysymystä suoraan kurssin kanavalla, voit ottaa yhteyttä suoraan "telegram-vastaavaan" Kalle Ilvekseen. Pääasiassa kysymykset kannattaa kuitenkin esittää kanavalla, sillä samat ongelmat koskevat usein useampaakin opiskelijaa
 - Kurssin ainoa luento ti 10.3. klo 12-14 Chemicum, sali A110
 - Sovellus tehdään käyttämällä Javan versiota 11. [Asennusohjeet](https://www.mooc.fi/fi/installation/netbeans)
