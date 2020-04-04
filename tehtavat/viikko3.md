@@ -18,7 +18,7 @@ Huomaa, että tällä viikolla on myös harjoitustyöhön liittyviä [tavoitteit
 
 [Monopoli](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/malli3-12.png?raw=true)
 [Engine & Machine & Tank](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/malli3-3.png?raw=true)
-[HLS](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/malli3-4.png?raw=true)
+[HSL](https://github.com/mluukkai/ohjelmistotekniikka-kevat-2020/blob/master/web/images/malli3-4.png?raw=true)
 
 ## Luokkakaaviot
 
