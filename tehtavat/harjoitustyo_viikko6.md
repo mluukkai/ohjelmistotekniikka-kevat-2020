@@ -42,7 +42,7 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
   - Dokumentti sisältää sovelluksen korkean tason (esim. pakkausten tasolla) rakenteen kuvauksen, sekä alustavan kuvauksen sovelluslogiikasta
   - Dokumentissa voi hyödyntää edellisten viikkojen luokka- ja sekvenssikaavioita
   - Mallia voi ottaa [referenssisovelluksesta](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/arkkitehtuuri.md#sovelluslogiikka)
-  - Dokumentin alustavan version sopiva pituus on noin 1-2 sivua
+  - Dokumentin alustavan version sopiva pituus on noin 1-2 sivua tekstiä ja kaavioita
 - Alustava käyttöohje (0.25p)
   - Ohje voi olettaa, että sovellusta suoritetaan palautusrepositoriosta käsin, eli asentamiseen ja konfigurointiin ei ole vielä tarvetta ottaa kantaa
   - Alustavan käyttöohjeen sopiva pituus on noin sivu
